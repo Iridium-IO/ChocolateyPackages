@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>compactgui</id>
+    <version>2.2.0</version>
+    <title>CompactGUI</title>
+    <authors>ImminentFate</authors>
+    <owners>ImminentFate</owners>
+    <licenseUrl>https://github.com/ImminentFate/CompactGUI/blob/master/LICENSE</licenseUrl>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/ImminentFate/CompactGUI/</projectUrl>
+	<packageSourceUrl>https://github.com/ImminentFate/ChocolateyPackages/tree/master/CompactGUI</packageSourceUrl> 
+    <iconUrl>https://github.com/ImminentFate/CompactGUI/blob/master/icon.png</iconUrl>
+	<summary>CompactGUI - easily compress games, programs and other folders transparently</summary>
+    <releaseNotes>https://github.com/ImminentFate/CompactGUI/releases</releaseNotes>
+    <tags>compact compactgui compact-gui compact_gui</tags>
+    <description>
+![Title Image](https://camo.githubusercontent.com/acf36ddae2ac068ba9cd9a284d192a56f3a36130/68747470733a2f2f692e696d6775722e636f6d2f765431546669312e706e67)
+CompactGUI is a standalone GUI to make using the Windows 10 compact.exe function easier to use. This allows games, programs and other folders to be compressed transparently (i.e they can still be used normally) with no performance loss. 
+
+This is similar to the NTFS-LZNT1 compression built-in to Windows (Right click > Properties > Compress to save space) however the newer algorithms that CompactGUI use were introduced in Windows 10 and are much more efficient, multi-threaded, and designed for use on executable programs resulting in greater compression ratios with almost no performance impact. [More information can be found here](https://github.com/ImminentFate/CompactGUI)
+
+####Main Uses
+* Reduce the size of games (e.g. Nioh: 73.9GB > 20.7GB)
+* Reduce the size of programs (e.g. Adobe Photoshop: 1.71GB > 886MB)
+* Compress any other folder on your computer
+
+###Additional Features
+* Visual feedback on compression progress and statistics
+* Online integration with community-sourced database to get compression estimates and analyses
+* Integration into Windows Explorer context menus for easier use. 
+* Drag-and drop functionality
+* Shutdown/Restart/Sleep on completion
+
+![Screenshot](https://i.imgur.com/JPYB7Z4.png)
+
+**[More Information can be found on the GitHub project page](https://github.com/ImminentFate/CompactGUI)**
+
+CompactGUI will be installed standalone in the default Chocolatey package directory
+	</description>
+	<bugTrackerUrl>https://github.com/ImminentFate/CompactGUI/issues</bugTrackerUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+</files>
+</package>
