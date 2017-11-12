@@ -1,0 +1,6 @@
+﻿VERIFICATION
+
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+This package is published by the author of the CompactGUI project itself. The binaries are identical to the ones published by the project, and can be verified via the releases page at https://github.com/ImminentFate/CompactGUI/releases
