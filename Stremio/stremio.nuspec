@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>stremio</id>
+    <version>3.6.5</version>
+    <title>Stremio</title>
+    <authors>Stremio</authors>
+    <owners>ImminentFate</owners>
+    <licenseUrl>http://strem.io/tos</licenseUrl>
+    <projectUrl>http://strem.io/</projectUrl>
+    <iconUrl>http://strem.io/3.0/stremio-white-small.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Stremio is an app that helps you organize and instantly watch your favorite videos, movies, TV series and TV channels</description>
+    <summary>Watch instantly all the video content you enjoy in one place</summary>
+    <copyright>Stremio 3.6.5 ₢</copyright>
+    <tags>stremio popcorn time movies series</tags>
+  </metadata>
+</package>
