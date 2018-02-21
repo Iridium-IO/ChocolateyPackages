@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>compactgui</id>
-    <version>2.5.0</version>
+    <version>2.5.1</version>
     <title>CompactGUI</title>
     <authors>ImminentFate</authors>
     <owners>ImminentFate</owners>
@@ -22,7 +22,7 @@ CompactGUI is a standalone GUI to make using the Windows 10 compact.exe function
 This is similar to the NTFS-LZNT1 compression built-in to Windows (Right click > Properties > Compress to save space) however the newer algorithms that CompactGUI use were introduced in Windows 10 and are much more efficient, multi-threaded, and designed for use on executable programs resulting in greater compression ratios with almost no performance impact. [More information can be found here](https://github.com/ImminentFate/CompactGUI)
 
 ####Main Uses
-* Reduce the size of games (e.g. Nioh: 73.9GB > 20.7GB)
+* Reduce the size of games (e.g. Fortnite: 18.8GB > 10.2GB)
 * Reduce the size of programs (e.g. Adobe Photoshop: 1.71GB > 886MB)
 * Compress any other folder on your computer
 
